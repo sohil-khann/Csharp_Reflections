@@ -14,72 +14,18 @@ Welcome to the official repository for **BridgeLabz .NET Fullstack Training**. T
 This repository is organized into three progressive levels, each building upon fundamental programming concepts:
 
 ```
-Csharp_Advanced_Programming/
+Csharp_Reflections/
 ├── Readme.md          # Project overview and structure
 └── .gitignore         # Git ignore configuration
 ```
 
 ```
 ## Branch Structure
-Csharp_Advanced_Programming/
-├──lambda-LINQ          
-├── nunit-testing          
-├── main          
-├── regex
-├── exception-handling
+Csharp_Reflections/
+├──reflections       
+├── main  
 
 ```
-
-## Project Structure
-
-```
-PracticeProblems/
-├── PracticeProblems.App/          # Main application with utility classes
-│   ├── BankAccount.cs             # Banking operations and account management
-│   ├── Calculator.cs              # Basic calculator operations
-│   ├── DatabaseConnection.cs      # Database connection handling
-│   ├── DateFormatter.cs           # Date formatting utilities
-│   ├── FileProcessor.cs           # File processing operations
-│   ├── ListManager.cs             # List manipulation utilities
-│   ├── MathUtils.cs               # Mathematical operations
-│   ├── NumberUtils.cs             # Number formatting and validation
-│   ├── PasswordValidator.cs       # Password validation rules
-│   ├── PerformanceTask.cs         # Performance measurement tasks
-│   ├── StringUtils.cs             # String manipulation utilities
-│   ├── TemperatureConverter.cs    # Temperature unit conversion
-│   ├── UserRegistration.cs        # User registration logic
-│   └── Program.cs                 # Application entry point
-│
-└── PracticeProblems.Test/         # Comprehensive unit tests
-    ├── BankAccountTests.cs
-    ├── CalculatorTests.cs
-    ├── DatabaseConnectionTests.cs
-    ├── DateFormatterTests.cs
-    ├── FileProcessorTests.cs
-    ├── ListManagerTests.cs
-    ├── MathUtilsTests.cs
-    ├── NumberUtilsTests.cs
-    ├── PasswordValidatorTests.cs
-    ├── PerformanceTaskTests.cs
-    ├── StringUtilsTests.cs
-    ├── TemperatureConverterTests.cs
-    └── UserRegistrationTests.cs
-```
-
-## Key Utilities
-
-- **BankAccount**: Account management with deposit/withdrawal operations
-- **Calculator**: Basic arithmetic operations
-- **DatabaseConnection**: Database connectivity and management
-- **DateFormatter**: Date parsing and formatting
-- **FileProcessor**: File reading, writing, and processing
-- **ListManager**: List operations and manipulations
-- **MathUtils**: Mathematical computations and algorithms
-- **NumberUtils**: Number formatting and validation
-- **PasswordValidator**: Password strength validation
-- **StringUtils**: String operations and transformations
-- **TemperatureConverter**: Unit conversions for temperature
-- **UserRegistration**: User registration validation and logic
 
 
 ## Building the Project
@@ -102,21 +48,19 @@ dotnet run --project PracticeProblems.App
 
 ## Features
 
+✅ Reflections 
 ✅ Object-oriented design principles  
 ✅ Exception handling and error management  
 ✅ Data validation and input sanitization  
-✅ File I/O operations  
-✅ Database connectivity patterns  
-✅ Performance measurement and optimization  
-✅ Comprehensive unit test coverage  
+✅ Performance measurement and optimizations
 ✅ Real-world utility implementations  
 
 ## Getting Started
 
 1. Clone or download the repository
-2. Open the solution file (`PracticeProblems.slnx`)
+2. Open the solution file (`Reflections.slnx`)
 3. Build the solution
-4. Review the utility classes in `PracticeProblems.App`
+4. Review the utility classes in `Reflections`
 5. Run the tests to verify functionality
 6. Explore the test cases to understand usage patterns
 
